@@ -1,0 +1,88 @@
+Jenkins Interview Questions  Visualpath
+on October 17, 2018
+Jenkins Interview Questions
+1.What is Continous Integration
+2.What is Jenkins
+3.What is the diference between Jenkins, Maven & Ant
+4.SCM that jenkins supports
+5.What is relation between Hudson & Jenkins
+6.What are advantages of using Jenkins
+7.What are plugins in Jenkins
+8.Mention all the plugins you used in jenkins and its purpose
+9.How do you clone git reo in jenkins job
+10.How do you build java code with Maven in Jenkins
+11.What is static code analysis and what plugin you used for it
+12.What is downstream and upstream job
+13.What is Nexus repository manager
+14.How can you version and upload artifacts in Nexus repo
+15.How can you deploy artifact to tomcat server from Jenkins job
+16.What is workspace in jenkins
+17.Copying artifacts to another job
+18.What is build pipeline
+19.How to create users in Jenkins
+20.How to addremovedisconnect nodes in Jenkins
+21.How to restrict jenkins job to execute on a particular node
+22.How to setup multiple Java or Maven or Git versions in Jenkins server
+23.How to set Environmental Variables in Jenkins
+24.How to installupdateremove Plugins in Jenkins
+25.How to execute ansible playbooks from Jenkins
+26.How to pass variables to ansible playbooks from Jenkins job
+27.Build id variable name
+28.What is console output
+29.What is build history
+30.How to store credentials in Jenkins
+31.How to deploy older versions of artifacts from Jenkins job
+32.Name diffrent Phases in Maven and its purpose
+33.How to restart Jenkins from browser
+34.How to startstoprestart Jenkins from command line
+35.What is the location of workspace of jobs in Jenkins server
+36.Benefits of using Nodes in Jenkins
+37.How to execute Bash script from Jenkins job
+38.Have you configured Jenkins’s job If yes, Tell me the process
+39.What is continuous integration why we need it
+40.How your CI & CD pipelines is are configured.
+41.Have you worked on maven
+42.How many slaves are there in ur Jenkins’s. How many executable are in each slave
+43.Where you can store the build zip file(artifact). And how you deploy this to your environments
+44.How to roll back the project from current version to previous versions
+45.What plugins are u used in your project
+46.How to write custom scripts in Maven
+47.How to setup jenkins server and nodes using ec2 instances
+48.how to deploy application by using git and Jenkins
+49.For java app what are the best tools which is used for CI and CD tools.-
+50.What problem CI solves, advantage of CI.
+Maven and Ant
+51.What is maven from where we get the pom.xml for the jobs.—
+52.Maven is a build tool.
+53.mvn archetypegenerate
+54.what is pom.xml file
+55.Maven and ant difference and what are the different scenario where it is used----
+56.Difference between Ant and Maven. 
+Ant and Maven both are build tools provided by Apache. The main purpose of these technologies is to ease the build process of a project. Ant doesn't has formal conventions, so we need to provide information of the project structure in build.xml file.
+57.what is ant and from where we get the build.xml for the jobs.---
+58.how pom.xml will read the variables which we use in the jenkin like version.----
+By invoking maven
+59.what is dependency in pom.xml---
+POM inheritance
+60.Invoke maven task is there in post build option.
+Jenkins
+1.are we in admin part of jenkins like installation of jenkins ---- yes
+2.different ways to install a plugin's in jenkins - using manage plugins.----
+3.how you created jobs in jenkins other than the GUI like new item option.. other option is job dsl. ---- using Jenkins API
+4.Why jenkins is required if we can do the same thing with script like automatic. - Continous Integration and its plugin feature.
+5.How many jobs are there in jenkins (for eg – ant , maven) - ant is default Maven you have to install, , Gradle.----
+steps for the installation of jenkins tomcat server ( for tomcat server install command is different ) - see our copy.yml.
+yum install Jenkins will run on which server  - Master server.
+how do you do a deployemnt. - using shell scripts
+are you doing the deployment in an application server - yes.
+What is sonar qube and How to Integrate sonar qube with jenkins - code metrics.
+Main reason of using jenkins - CI.
+Commands to start jenkin manually  through command prompts like how to up the server  - service jenkins start.
+How to Safe restart the jenkins - Restart when no jobs are running.
+How to create a backup in jenkins, what is the plug in name complete process. From which directory it will take the back up ( jenkin_home) directory. - Backup Plugin.
+Step to setup a jenkins and how to create a new job - New item- Frees style.
+How to deploy a Custom build in jenkins - usinfg build tools such as ant and maven.
+Where we store the artifacts which gets generated from jenkins -  local and nexus .
+How to bypass the github like directly using the code and put it in jenkins--- t
+Jenkins used a entriprised or a open source u used - ---open source.
+Different Pluging used in jenkins ---build pipeline, Backup, git .
